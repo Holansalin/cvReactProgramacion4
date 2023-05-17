@@ -44,7 +44,7 @@ function App() {
                 </section>
 
                 <section>
-                    <MiComponenteTitle titulo="Profesion"/> 
+                    <MiComponenteTitle titulo="Profesiones"/> 
                     <p>mcihasdfa afsldkfjapsdoi jasdf asjdfaopisdhjfpaa fajsopdfijas </p>
                     <p>2015 - 2016</p>
                     <ul>
