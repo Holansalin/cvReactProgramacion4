@@ -12,6 +12,7 @@ const MiComponenteIcono =({icono, info})=>{
     )
 }
 
+
 const MiComponenteTitle=({titulo})=>{
     return(
         <h2 className="title-default">{titulo}</h2>
