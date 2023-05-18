@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { AiFillPhone, AiFillIeSquare } from "react-icons/ai";
-import { IoAddCircleSharp  } from "react-icons/io5";
+import { BsFillEnvelopeFill, BsFillHouseFill, BsPhoneFill } from "react-icons/bs";
 
 const MiComponenteIcono =({icono, info})=>{
     return(
@@ -73,17 +73,17 @@ function App() {
 
                 <section>
                     <MiComponenteTitle titulo="Habilidades"/> 
-                    <p>mcihasdfa afsldkfjapsdoiaf ads asdfasdf asdf jasdf asjdfaopisdhjfpaa fajsopdfijas </p>
+                    <p>Profesionista con 5 años de experiencia en el área de marketing en busca de un puesto como estratega digital en la empresa Doremi Corp. Deseo utilizar mis habilidades de social media management, pensamiento creativo y resolución de problemas para ayudar a que Doremi alcance sus objetivos de ventas online. </p>
                 </section>
 
                 <section>
                     <h2 className="title-default">Contact</h2>
                     <div>
-                        <MiComponenteIcono icono={<AiFillPhone />} info="318327737" />
-                        <MiComponenteIcono icono={<IoAddCircleSharp />} info="calle 23 edificio La Quinta" />
-                        <MiComponenteIcono icono={<AiFillIeSquare/>} info="halvarez@gmail.com" />
+                        <MiComponenteIcono icono={<BsPhoneFill />} info="318327737" />
+                        <MiComponenteIcono icono={<BsFillHouseFill />} info="calle 23 edificio La Quinta" />
+                        <MiComponenteIcono icono={<BsFillEnvelopeFill/>} info="halvarez@gmail.com" />
                         <MiComponenteIcono icono={<AiFillPhone />} info="6068888232" />
-                        <MiComponenteIcono icono={<AiFillPhone />} info="marketing.com" />
+                        <MiComponenteIcono icono={<AiFillIeSquare />} info="marketing.com" />
                     </div>
                 </section>
             </main>
