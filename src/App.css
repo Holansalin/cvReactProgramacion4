@@ -38,8 +38,7 @@
 .title-default{
   color: #ef8a37;
   font-size: 30px;
-  
-  
+   
 }
 
 .content-main{
@@ -63,4 +62,30 @@
   border: solid;
   margin: 0 0px;
   color: #000;
+  margin-top: 3px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.parrafo{
+  padding-right: 7%;
+}
+
+.lenguaje-container{
+  display: flex;
+}
+
+.icon-item{
+  margin-top: 4px;
+}
+
+.container-form{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container-form form{
+  width: 50%;
+  margin-bottom: 20px;
 }
