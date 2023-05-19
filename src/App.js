@@ -34,7 +34,7 @@ const MiComponenteHeader=({titulo1, titulo2, subtitulo, img})=>{
 function App() {
     return (
         <div>
-            <MiComponenteHeader titulo1="Yolanda" titulo2="Alvarez" subtitulo="Estudiante" img="/mi-foto.jpeg" />
+            <MiComponenteHeader titulo1="Holanda" titulo2="Alvarez" subtitulo="Estudiante" img="/mi-foto.jpeg" />
 
             <main className="content-main">
                 <section>
